@@ -1,67 +1,118 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Track and Field Training</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <!-- Header introduces the training page -->
+    <!-- Header for the training page -->
     <header>
         <h1>Training for Track and Field</h1>
-        <p>How Runners Improve Their Performance</p>
+        <p class="highlight">
+            How Runners Improve Their Performance
+        </p>
     </header>
 
     <main>
-        <!-- Introduction to training -->
-        <section>
+
+        <!-- Training introduction -->
+        <section id="training-intro" class="content-card">
             <h2>Why Training Is Important</h2>
+
             <p>
-                Track athletes need both speed and endurance
-                to perform well in races. Training helps runners
-                build strength, improve their fitness, and
-                prepare for competition.
+                Track athletes need speed and endurance
+                to perform well in races. Training helps
+                runners build strength and improve fitness.
             </p>
+
             <p>
-                Distance runners often follow a weekly schedule
-                with easy runs, hard workouts, and rest days.
-                Staying consistent with training is an important
-                part of improving race times.
+                Distance runners often follow a weekly
+                schedule that includes easy runs,
+                workouts, and recovery days.
             </p>
         </section>
 
-        <!-- Ordered list showing training steps -->
-        <section>
-            <h2>How to Prepare for a Track Workout</h2>
-            <ol>
-                <li>Start with an easy warm-up jog.</li>
-                <li>Complete dynamic stretches and running drills.</li>
-                <li>Begin the main workout.</li>
-                <li>Finish with an easy cooldown jog.</li>
-                <li>Hydrate, eat, and recover afterward.</li>
-            </ol>
-        </section>
+        <!-- Flexbox organizes workout and recovery -->
+        <div class="flex-container">
 
-        <!-- Recovery information -->
-        <section>
-            <h2>Recovery for Runners</h2>
+            <!-- Workout preparation -->
+            <section id="workout-steps" class="content-card">
+                <h2>Preparing for a Track Workout</h2>
+
+                <p>
+                    Preparing correctly can help runners
+                    get the most out of their workouts.
+                </p>
+
+                <ol>
+                    <li>Start with an easy warm-up jog.</li>
+                    <li>Complete dynamic stretching.</li>
+                    <li>Perform running drills.</li>
+                    <li>Complete the main workout.</li>
+                    <li>Finish with a cooldown jog.</li>
+                </ol>
+            </section>
+
+            <!-- Recovery tips -->
+            <section id="recovery-section" class="content-card">
+                <h2>Recovery for Runners</h2>
+
+                <p>
+                    Recovery is an important part
+                    of improving as a runner.
+                </p>
+
+                <p>
+                    Getting enough sleep, eating
+                    balanced meals, and staying
+                    hydrated can help athletes
+                    prepare for their next workout.
+                </p>
+
+                <h3>Recovery Tips</h3>
+
+                <ul>
+                    <li>Get enough sleep</li>
+                    <li>Stay hydrated</li>
+                    <li>Eat balanced meals</li>
+                    <li>Take recovery days</li>
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- Additional training information -->
+        <section class="content-card">
+            <h2>Consistency Is Important</h2>
+
             <p>
-                Recovery is just as important as training.
-                Getting enough sleep, eating balanced meals,
-                and allowing time between difficult workouts
-                can help runners stay healthy and improve.
+                Improving in track and field takes time.
+                Runners should focus on consistent
+                training instead of expecting immediate
+                results.
+            </p>
+
+            <p class="highlight">
+                Hard work and patience can help
+                runners reach their goals.
             </p>
         </section>
+
     </main>
 
-    <!-- Footer links back to the homepage -->
+    <!-- Footer with link back to homepage -->
     <footer>
-        <p>
-            <a href="index.html">Back to Home</a>
-        </p>
+        <p>Track and Field Training Guide</p>
+
+        <a href="index.html">
+            Back to Home
+        </a>
     </footer>
 
 </body>
