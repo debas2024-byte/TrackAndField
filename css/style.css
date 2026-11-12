@@ -89,3 +89,8 @@ footer a {
     color: white;
 }
 
+
+/* Improve subtitle contrast in the header */
+header .highlight {
+    color: #ffffff;
+}
