@@ -1,1 +1,91 @@
 
+/* General page styling */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #163d68;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #163d68;
+    font-size: 25px;
+}
+
+p {
+    font-size: 17px;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+}
+
+/* Reusable classes */
+.content-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.highlight {
+    color: #1764a3;
+    font-weight: bold;
+}
+
+/* Unique section IDs */
+#events-section {
+    border-left: 5px solid #1764a3;
+}
+
+#training-section {
+    border-left: 5px solid #2a915b;
+}
+
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-container section {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #163d68;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
