@@ -1,72 +1,120 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Track and Field Events</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <!-- Header introduces the website -->
+    <!-- Website header -->
     <header>
         <h1>Track and Field</h1>
-        <p>Learning About Distance Running Events</p>
+        <p class="highlight">
+            Learning About Distance Running Events
+        </p>
     </header>
 
-    <!-- Main section contains information about track -->
-    <main> 
-        
-<img src="images/images/images/OIP.webp" alt="Track and field photograph" width="400">
+    <!-- Main website content -->
+    <main>
 
-        <section>
+        <!-- Introduction section -->
+        <section class="content-card">
             <h2>What Is Track and Field?</h2>
+
             <p>
-                Track and field is a sport that includes running,
-                jumping, and throwing events. Athletes compete
-                in different events depending on their strengths.
-                Running events can range from short sprints to
-                longer distance races.
+                Track and field is a sport that includes
+                running, jumping, and throwing events.
+                Athletes compete in different events
+                depending on their strengths.
+            </p>
+
+            <p>
+                Running is one of the most popular parts
+                of track and field. Some runners focus
+                on short races, while others compete
+                in middle-distance and long-distance events.
+            </p>
+
+            <!-- Track and field image -->
+            <img
+                src="images/images/images/OIP.webp"
+                alt="Athletes competing in a track race"
+                width="400">
+        </section>
+
+        <!-- Flexbox holds two sections side by side -->
+        <div class="flex-container">
+
+            <!-- Distance events section -->
+            <section id="events-section" class="content-card">
+                <h2>Popular Distance Events</h2>
+
+                <p>
+                    Distance running requires both speed
+                    and endurance. Different races challenge
+                    athletes in different ways.
+                </p>
+
+                <h3>Common Running Events</h3>
+
+                <ul>
+                    <li>800 meters</li>
+                    <li>1500 meters</li>
+                    <li>5000 meters</li>
+                    <li>10000 meters</li>
+                </ul>
+            </section>
+
+            <!-- Training section -->
+            <section id="training-section" class="content-card">
+                <h2>Why Training Matters</h2>
+
+                <p>
+                    Training is important because it helps
+                    runners become faster, stronger, and
+                    more confident during races.
+                </p>
+
+                <p>
+                    Athletes usually combine easy runs,
+                    speed workouts, and recovery days
+                    to improve their performance.
+                </p>
+            </section>
+
+        </div>
+
+        <!-- Additional information -->
+        <section class="content-card">
+            <h2>My Interest in Track and Field</h2>
+
+            <p>
+                Track and field is interesting because
+                every race gives athletes an opportunity
+                to improve. Distance running requires
+                determination, consistency, and hard work.
+            </p>
+
+            <p class="highlight">
+                Every second matters when trying
+                to achieve a personal best.
             </p>
         </section>
 
-        <!-- Information about distance running -->
-        <section>
-            <h2>Popular Distance Events</h2>
-            <p>
-                Some of the most popular distance events in
-                track and field are the 800 meters, 1500 meters,
-                and 5000 meters. Each event requires different
-                levels of speed and endurance.
-            </p>
-
-            <h3>Common Running Events</h3>
-            <ul>
-                <li>800 meters</li>
-                <li>1500 meters</li>
-                <li>5000 meters</li>
-                <li>10000 meters</li>
-            </ul>
-        </section>
-
-        <!-- Explains the importance of training -->
-        <section>
-            <h2>Why Training Matters</h2>
-            <p>
-                Training helps runners improve their endurance,
-                speed, and overall performance. Athletes usually
-                combine easy runs, speed workouts, and recovery
-                days to prepare for competitions.
-            </p>
-        </section>
     </main>
 
-    <!-- Footer links to the second page -->
+    <!-- Footer with navigation -->
     <footer>
-        <p>
-            <a href="page2.html">Read More About Track Training</a>
-        </p>
+        <p>Track and Field Educational Website</p>
+
+        <a href="page2.html">
+            Read More About Track Training
+        </a>
     </footer>
 
 </body>
